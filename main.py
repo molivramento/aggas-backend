@@ -8,7 +8,7 @@ from users.google_auth import google_auth
 
 load_dotenv()
 
-SECRET_KEY = os.getenv('SECRET_KEY')
+SECRET_KEY = '5e932fc89b06940630d9cdb4eaf3135b0dee70bd7dce035721496d73281826d3'  # os.getenv('SECRET_KEY')
 
 app = FastAPI()
 
